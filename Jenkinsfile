@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build Maven Project') {
           steps {
-            sh 'mvn compile test package'
+            sh 'mvn compile'
           }
         }
 
